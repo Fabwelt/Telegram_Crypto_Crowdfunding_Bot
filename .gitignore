@@ -1,18 +1,74 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Node modules (if using npm or yarn for dependencies)
+node_modules/
 
-# Other files and folders
-.settings/
+# Build artifacts (compiled contracts)
+build/
+artifacts/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Dependency folders
+lib/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Cache directories
+.cache/
+.cache-test/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Hardhat specific files
+*.log
+*.tsbuildinfo
+coverage/
+typechain/
+
+# Remix specific
+.remix.config
+remixdBackup*
+
+# Truffle specific
+migrations/
+
+# VSCode specific
+.vscode/
+
+# MacOS specific files
+.DS_Store
+
+# IDE Specific
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.venv/
+env/
+venv/
+ENV/
+venv.bak/
+
+# Pipenv
+Pipfile.lock
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
